@@ -33,7 +33,7 @@ export default async function PostPage({ params }: Props) {
   }
 
   const views =
-    (await redis.get<number>(["pageviews", "projects", slug].join(":"))) ?? 0;
+    (await redis.get<number>(["pageviews", "blog", slug].join(":"))) ?? 0;
 
   return (
     <div className="bg-zinc-50 min-h-screen">
