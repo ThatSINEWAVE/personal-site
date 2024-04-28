@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { allProjects } from "contentlayer/generated";
+import { allBlog } from "contentlayer/generated";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 import { Article } from "./article";
@@ -10,20 +10,20 @@ import { Eye } from "lucide-react";
 const redis = Redis.fromEnv();
 
 export const revalidate = 60;
-export default async function ProjectsPage() {
+export default async function BlogPage() {
   const views = (
     await redis.mget<number[]>(
-      ...allProjects.map((p) => ["pageviews", "blog", p.slug].join(":")),
+      ...allBlog.map((p) => ["pageviews", "blog", p.slug].join(":")),
     )
   ).reduce((acc, v, i) => {
-    acc[allProjects[i].slug] = v ?? 0;
+    acc[allBlog[i].slug] = v ?? 0;
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "unkey")!;
-  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
-  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
-  const sorted = allProjects
+  const featured = allBlog.find((project) => project.slug === "unkey")!;
+  const top2 = allBlog.find((project) => project.slug === "planetfall")!;
+  const top3 = allBlog.find((project) => project.slug === "highstorm")!;
+  const sorted = allBlog
     .filter((p) => p.published)
     .filter(
       (project) =>
