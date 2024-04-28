@@ -46,36 +46,6 @@ export const Project = defineDocumentType(() => ({
 	computedFields,
 }));
 
-export const Blog = defineDocumentType(() => ({
-	name: "Blog",
-	filePathPattern: "./blog/**/*.mdx",
-	contentType: "mdx",
-
-	fields: {
-		published: {
-			type: "boolean",
-		},
-		title: {
-			type: "string",
-			required: true,
-		},
-		description: {
-			type: "string",
-			required: true,
-		},
-		date: {
-			type: "date",
-		},
-		url: {
-			type: "string",
-		},
-		repository: {
-			type: "string",
-		},
-	},
-	computedFields,
-}));
-
 export const Page = defineDocumentType(() => ({
 	name: "Page",
 	filePathPattern: "pages/**/*.mdx",
