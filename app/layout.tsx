@@ -9,16 +9,16 @@ export const metadata: Metadata = {
     default: "SINEWAVE",
     template: "%s | SINEWAVE",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Security Researcher and Entrepreneur. Let's innovate!",
   openGraph: {
     title: "SINEWAVE",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
-    url: "https://chronark.com",
+      "Security Researcher and Entrepreneur. Let's innovate!",
+    url: "https://sinewave.vercel.app",
     siteName: "SINEWAVE",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://sinewave.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
