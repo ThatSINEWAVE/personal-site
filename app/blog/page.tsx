@@ -20,6 +20,17 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
+  const featured = allProjects.find((project) => project.slug === "unkey")!;
+  const top2 = allProjects.find((project) => project.slug === "planetfall")!;
+  const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const sorted = allProjects
+    .filter((p) => p.published)
+    .filter(
+      (project) =>
+        project.slug !== featured.slug &&
+        project.slug !== top2.slug &&
+        project.slug !== top3.slug,
+    )
     .sort(
       (a, b) =>
         new Date(b.date ?? Number.POSITIVE_INFINITY).getTime() -
