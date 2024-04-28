@@ -20,9 +20,9 @@ export default async function BlogsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allBlogs.find((blog) => blog.slug === "unkey")!;
-  const top2 = allBlogs.find((blog) => blog.slug === "planetfall")!;
-  const top3 = allBlogs.find((blog) => blog.slug === "highstorm")!;
+  const featured = allBlogs.find((blog) => blog.slug === "blog_01")!;
+  const top2 = allBlogs.find((blog) => blog.slug === "blog_02")!;
+  const top3 = allBlogs.find((blog) => blog.slug === "blog_03")!;
   const sorted = allBlogs
     .filter((p) => p.published)
     .filter(
