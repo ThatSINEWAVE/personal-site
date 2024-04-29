@@ -22,7 +22,7 @@ export default function Example() {
                 It's my way of unwinding and gaining fresh insights into software and game development.
                 My coding philosophy? It's all about crafting fun and quirky projects that not only entertain but also come in handy.
                 I love diving into experimental projects, where I let my imagination run wild, coding up whatever sparks my curiosity.
-                And let's not forget the countless mini-apps I've whipped up, each a testament to the joy of creating something from scratch, fueled by pure imagination.
+                I've whipped up countless mini-apps, each a testament to the joy of creating something from scratch, fueled by pure imagination.
                 So, that's me in a nutshell! Stick around, and let's ride this wave together.
                 Feel free to browse through my projects and hit me up if you have any questions or want to team up on something awesome!
                 Thanks for stopping by!
