@@ -20,7 +20,7 @@ export default async function BlogsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allBlogs.find((blog) => blog.slug === "blog_01")!;
+  const featured = allBlogs.find((blog) => blog.slug === "spypet")!;
   const top2 = allBlogs.find((blog) => blog.slug === "blog_02")!;
   const top3 = allBlogs.find((blog) => blog.slug === "blog_03")!;
   const sorted = allBlogs
