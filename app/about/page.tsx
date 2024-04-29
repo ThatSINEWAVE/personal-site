@@ -14,15 +14,13 @@ export default function Example() {
                 About Me
               </h2>
               <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                Hi there! I'm a passionate developer with a keen interest in
-                creating innovative solutions. I love exploring new technologies
-                and constantly expanding my knowledge. When I'm not coding,
-                you'll find me indulging in my hobbies or spending time with
-                loved ones.
+                Hey there! Welcome to my corner of the web, where my passion for coding collides with my love for pushing boundaries. I spend my days turning concepts into reality, using Python and JavaScript to cook up some pretty cool stuff for the web. I'm the mastermind behind a dynamic company focused on Online Stores & Digital Marketing Solutions. Oh, and I also dabble in real estate, merging market insights with tech savvy to shake things up in property ventures.
               </p>
               <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
-                Feel free to explore my projects and don't hesitate to reach out
-                if you have any questions or opportunities for collaboration.
+                When I'm not immersed in code, you'll likely find me in the gaming realm, tracking down bugs like hidden treasures. It's my way of unwinding and gaining fresh insights into software and game development.
+              </p>
+              <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
+                My coding philosophy? It's all about crafting fun and quirky projects that not only entertain but also come in handy. I love diving into experimental projects, where I let my imagination run wild, coding up whatever sparks my curiosity. And let's not forget the countless mini-apps I've whipped up, each a testament to the joy of creating something from scratch, fueled by pure imagination and a touch of coding magic. So, that's me in a nutshell! Stick around, and let's ride this wave together. Thanks for stopping by and feel free to browse through my projects and hit me up if you have any questions or want to team up on something awesome!
               </p>
             </div>
           </Card>
