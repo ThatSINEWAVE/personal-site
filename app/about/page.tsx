@@ -20,12 +20,12 @@ export default function Example() {
                 Oh, and I also dabble in real estate, merging market insights with tech savvy to shake things up in property ventures.
                 When I'm not immersed in code, you'll likely find me gaming and tracking down bugs like hidden treasures.
                 It's my way of unwinding and gaining fresh insights into software and game development.
-              </p>
-              <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                 My coding philosophy? It's all about crafting fun and quirky projects that not only entertain but also come in handy.
                 I love diving into experimental projects, where I let my imagination run wild, coding up whatever sparks my curiosity.
                 And let's not forget the countless mini-apps I've whipped up, each a testament to the joy of creating something from scratch, fueled by pure imagination.
                 So, that's me in a nutshell! Stick around, and let's ride this wave together.
+              </p>
+              <p className="z-20 mt-4 text-sm duration-1000 text-zinc-400 group-hover:text-zinc-200">
                 Feel free to browse through my projects and hit me up if you have any questions or want to team up on something awesome!
                 Thanks for stopping by!
               </p>
